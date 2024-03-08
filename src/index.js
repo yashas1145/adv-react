@@ -1,12 +1,10 @@
 import React from "react";
-import { createRoot } from "react-dom/client"; 
-// eslint-disable-next-line 
-import style from "./styles.module.css";
-import App from "./component/App";
+import { createRoot } from "react-dom/client";
+import App from "./components/App";
 
-const rootContainer = document.getElementById("root");
-const root = createRoot(rootContainer);
+const rootDiv = document.getElementById("root");
+const root = createRoot(rootDiv);
 
 root.render(
-  <App/>
+    <App/>
 );
