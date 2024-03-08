@@ -1,10 +1,10 @@
 import React from "react";
 import style from "../styles.module.css";
 
-function Note () {
+function Note (props) {
     return <div className={style.note}>
-        <h3>This is the note title</h3>
-        <p>This is the note description</p>
+        <h3>{props.noteTitle}</h3>
+        <p>{props.noteDescription}</p>
     </div>
 }
 
