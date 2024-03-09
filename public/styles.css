@@ -8,8 +8,30 @@ body {
 }
 
 header {
+    position: relative;
     background-color: orange;
     font-size: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+header button {
+    margin: 0 5rem;
+    height: 2rem;
+}
+
+header #count {
+    color: whitesmoke;
+    text-align: center;
+    width: 5rem;
+    margin: 0 5rem;
+}
+
+header #time {
+    color: whitesmoke;
+    position: absolute;
+    right: 0;
+    margin: 0 5rem;
 }
 
 header p {
@@ -41,4 +63,15 @@ footer {
     border-radius: 0.25rem;
     box-shadow: 0.1rem 0.1rem 1rem gray;
     transition: height 0.ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    font-family: "Rubik", sans-serif;
+    margin: 1rem;
 }
