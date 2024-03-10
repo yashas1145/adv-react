@@ -28,6 +28,7 @@ header #count {
 }
 
 header #time {
+    font-size: 2rem;
     color: whitesmoke;
     position: absolute;
     right: 0;
@@ -45,6 +46,7 @@ footer {
     position: absolute;
     bottom: 0;
     background-color: whitesmoke;
+    color: gray;
     width: 100%;
     text-align: center;
 }
@@ -53,6 +55,8 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
+    overflow-x: scroll;
 }
 
 .note {
@@ -74,4 +78,19 @@ form {
 input {
     font-family: "Rubik", sans-serif;
     margin: 1rem;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    border: none;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.2rem;
+    color: gray;
 }

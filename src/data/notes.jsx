@@ -22,6 +22,12 @@ const notes = [
       title: "Hardware vs. Software",
       content:
         "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software."
+    },
+    {
+      key: 5,
+      title: "Clean code vs. Dummy code",
+      content:
+        "Clean code always is more sensible than horribly indented code."
     }
 ];
 
