@@ -76,8 +76,11 @@ form {
 }
 
 input {
+    border: none;
+    border-bottom: 1px solid gray;
+    border-radius: 0;
     font-family: "Rubik", sans-serif;
-    margin: 1rem;
+    margin: 0.2rem 1rem;
 }
 
 .flex-center {
@@ -88,9 +91,12 @@ input {
 }
 
 button {
+    margin: 0.2rem 1rem;
     border: none;
     height: 2rem;
     width: 5rem;
     border-radius: 0.2rem;
-    color: gray;
+    color: whitesmoke;
+    background-color: orange;
+    cursor: pointer;
 }
